@@ -1,0 +1,32 @@
+<f:layout name="Default" />
+
+<f:section name="iconButtons">
+	<!--<f :be.buttons.icon uri="{f:uri.action(action:'index', arguments: {post : post, blog: post.blog})}" icon="closedok" title="Cancel" />-->
+	<!--<f :be.buttons.icon uri="javascript: document.post.submit();" icon="saveandclosedok" title="Save" />-->
+</f:section>
+
+<f:section name="content">
+	<f:form method="post" action="execute" arguments="{source: source, destination: destination, languages: languages}">
+		<h3>{f:translate(key: 'header_confirm')}</h3>
+		<label for="source">{f:translate(key: 'source')}</label><br />
+        <f:form.textfield property="source" name="source" value="{source}" disabled="disabled" style="background: #eeeeee;" /><br /><br />
+		<label for="destination">{f:translate(key: 'destination')}</label><br />
+        <f:form.textfield property="destination" name="destination" value="{destination}" disabled="disabled" style="background: #eeeeee;" /><br /><br />
+
+        <f:if condition="{languages}">
+            <h3>{f:translate(key: 'select_languages')}</h3>
+            <f:for each="{languages}" as="language" key="uid">
+                <f:form.checkbox name="selectedLanguages[{uid}]" id="language-{uid}" value="{uid}" />
+                <label for="language-{uid}">{language}</label>
+                <br />
+            </f:for>
+            <br /><br />
+        </f:if>
+
+        <span><strong>{f:translate(key: 'warning_confirm')}</strong></span><br /><br />
+
+        <f:form.submit name="change" value="{f:translate(key: 'change')}" />
+        <f:form.submit name="submit" value="{f:translate(key: 'submit')}" />
+
+	</f:form>
+</f:section>

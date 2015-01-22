@@ -1,0 +1,11 @@
+# Module configuration
+module.tx_braintreecopier {
+	persistence {
+		storagePid = {$module.tx_braintreecopier.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_braintreecopier.view.templateRootPath}
+		partialRootPath = {$module.tx_braintreecopier.view.partialRootPath}
+		layoutRootPath = {$module.tx_braintreecopier.view.layoutRootPath}
+	}
+}

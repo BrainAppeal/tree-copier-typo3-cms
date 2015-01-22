@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for the Tree Copier extension in the FRONTEND</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_braintreecopier_domain_model_treecopier">Copy source tree to destination</label>
+            <label index="header_confirm">Confirm selection</label>
+            <label index="header_enter">Enter source and destination page IDs (only sub-pages of the source page will be copied)</label>
+            <label index="header_execute">Copy process executed</label>
+
+            <label index="errormsg_source_destination">Source and destination must both be greater than 0.</label>
+			<label index="select_languages">These language-versions of the pages should be copied along with the default language</label>
+			<label index="warning_confirm">Only proceed if you have database backups! Use at your own risk.</label>
+			<label index="TRUE">Yes</label>
+			<label index="FALSE">No</label>
+
+            <label index="change">Change</label>
+            <label index="destination">Destination Page ID (new parent page)</label>
+            <label index="error">Error</label>
+            <label index="error_page_copy">Error during page copy.</label>
+            <label index="error_shortcut_update">Error during shortcut update.</label>
+            <label index="pagesCopied">Number of copied pages</label>
+            <label index="shortcutsUpdated">Number of updated shortcuts</label>
+            <label index="source">Source Page ID (current parent page)</label>
+            <label index="submit">Submit</label>
+            <label index="copy_info">Fill in the source and target page ids. After submitting the form a copy of each sub-page of the given source page id will be created as a sub-page of the given target page id. No content elements will be copied! Instead for each copied page the page field "Show Content from Page" will be set to the source page id, so the content of the original page will be shown in the frontend.</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tx_braintreecopier_domain_model_treecopier">Kopiere Quellbaum zum Zielbaum</label>
+            <label index="header_confirm">Auswahl bestätigen</label>
+            <label index="header_enter">Quell- und Ziel-Seiten-IDs eingeben (kopiert werden nur die Unterseiten der Quellseite)</label>
+            <label index="header_execute">Kopiervorgang ausgeführt</label>
+
+            <label index="errormsg_source_destination">Quell- und Ziel-Seiten-ID müssen größer als 0 sein.</label>
+			<label index="select_languages">Diese Sprachversionen der Seiten zusätzlich zur Standardsprache mitkopieren</label>
+			<label index="warning_confirm">Bitte nur fortsetzen, wenn Datenbankbackups existieren! Benutzung auf eigene Gefahr.</label>
+			<label index="TRUE">Ja</label>
+			<label index="FALSE">Nein</label>
+
+            <label index="change">Änderung</label>
+            <label index="destination">Zielseiten-ID (neue Parent-Seite)</label>
+            <label index="error">Fehler</label>
+            <label index="error_page_copy">Fehler beim Kopieren der Seiten.</label>
+            <label index="error_shortcut_update">Fehler bei Aktualisierung der Verweise.</label>
+            <label index="pagesCopied">Anzahl kopierter Seiten</label>
+            <label index="shortcutsUpdated">Anzahl aktualisierter Verweise</label>
+            <label index="source">Quellseiten-ID (aktuelle Parent-Seite)</label>
+            <label index="submit">Absenden</label>
+            <label index="copy_info">Bitte geben Sie die IDs der Quellseite und Zielseite an. Nach Absenden des Formulars wird eine Kopie für jede Unterseite der angegebenen Quellseite als Unterseite der angegebenen Zielseite angelegt. Es werden keine Inhaltselemente kopiert! Stattdessen wird bei jeder kopierten Seite in den Seiteneigenschaften im Feld "Zeige Inhalt von Seite" die Ursprungsseite eingetragen; im Frontend wird also bei beiden Seiten der gleiche Inhalt angezeigt.</label>
+        </languageKey>
+    </data>
+</T3locallang>

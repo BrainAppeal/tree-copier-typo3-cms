@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for backend module Tree Copier belonging to extension 'braintreecopier'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+		<label index="mlang_tabs_tab">Tree Copier</label>
+			<label index="mlang_labels_tabdescr">Copy target tree to destination</label>
+			<label index="mlang_labels_tablabel">braintreecopier</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+		<label index="mlang_tabs_tab">Tree Copier</label>
+			<label index="mlang_labels_tabdescr">Kopiere Quellseitenbaum zu Ziel</label>
+			<label index="mlang_labels_tablabel">braintreecopier</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields belonging to extension 'braintreecopier'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_braintreecopier_domain_model_treecopier">Tree Copier</label>
+            <label index="tt_content.tx_extbase_type.Tx_Braintreecopier_TreeCopier">TreeCopier</label>
+        </languageKey>
+    </data>
+</T3locallang>
